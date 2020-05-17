@@ -1,0 +1,60 @@
+h1 {
+  margin-bottom: 25px;
+  font-size: 1.7rem;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  font-family: var(--font-family);
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  border-radius: 3px;
+  padding: 10px;
+  border: 1px solid var(--Very-Dark-Blue);
+  font-family: var(--font-family);
+  margin-bottom: 10px;
+}
+
+button {
+  width: 90%;
+  background-color: var(--Bright-Blue);
+  padding: 10px;
+  color: var(--Light-Grayish-Blue);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px 0px var(--Light-Gray);
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    font-family: var(--font-family);
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    padding: 0;
+    max-width: 540px;
+  }
+
+  input {
+    width: 55%;
+    margin-right: 10px;
+  }
+
+  button {
+    width: 30%;
+  }
+}
