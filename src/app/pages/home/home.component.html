@@ -1,0 +1,37 @@
+<app-main>
+  <app-section imgUrl="../assets/img/illustration-1.svg" imgTextAlt="Illustration 1">
+    <h1>All your files in one secure location, accessible anywhere.</h1>
+    <p>Fylo stores your most important files in one secure location. Access them wherever your need, shere and collaborate with friends, family, and co-workers.</p>
+    <form>
+      <input type="text" name="email" id="email" placeholder="Enter your email..." />
+      <button>Get Started</button>
+    </form>
+  </app-section>
+  
+  <app-curve></app-curve>
+  <app-container color='--Light-Grayish-Blue'>
+    <app-section
+      imgUrl="../assets/img/illustration-2.svg" 
+      imgTextAlt="Illustration 2"
+    >
+      <h2>Stay productive, wherever your are</h2>
+      <p class='text-aling-start'>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+      <p class='text-aling-start'>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+      <div class="section-details-call-to-action">
+        <a href="/">See how Fylo works <img src='../assets/img/icon-arrow.svg' alt="Icon Arrow" /></a>
+      </div>
+  
+      <app-card 
+        avatar="../assets/img/avatar-testimonial.jpg"
+        userName='Kyle Burton'
+        userDetails='Founder & CEO, Huddle'
+        content='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-olled collaboration machine.'
+      ></app-card>
+  
+    </app-section>
+  </app-container>
+  
+  <app-container color="--Very-Dark-Blue">
+    <app-newsletter></app-newsletter>
+  </app-container>
+</app-main>
